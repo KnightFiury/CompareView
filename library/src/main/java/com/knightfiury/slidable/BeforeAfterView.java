@@ -86,4 +86,24 @@ public class BeforeAfterView extends View {
         invalidate();
         return true;
     }
+
+    /** Animate the knob from any start to any end position (0 to 1 range) **/
+	public void move(float start, float end) {
+		// clamp values between 0 and 1
+		start = Math.max(0, Math.min(1, start));
+		end = Math.max(0, Math.min(1, end));
+		
+		ValueAnimator animator = ValueAnimator.ofFloat(start, end);
+		animator.setDuration(1500); // configurable duration
+		
+		animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
+			@Override
+			public void onAnimationUpdate(ValueAnimator animation) {
+				dividerPosition = (Float) animation.getAnimatedValue();
+				invalidate();
+			}
+		});
+		
+		animator.start();
+	} 
 }
