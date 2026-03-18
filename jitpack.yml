@@ -1,0 +1,8 @@
+jdk:
+  - openjdk17
+before_install:
+  - sdk install gradle 8.2
+  - sdk use gradle 8.2
+  - gradle wrapper --gradle-version=8.2
+build:
+  - ./gradlew clean :library:publishToMavenLocal -x test
