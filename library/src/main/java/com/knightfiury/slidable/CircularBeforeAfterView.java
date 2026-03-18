@@ -1,5 +1,6 @@
 package com.knightfiury.slidable;
 
+import android.animation.ValueAnimator;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.*;
