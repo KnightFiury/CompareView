@@ -52,9 +52,9 @@ dependencies {
     app:beforeImage="@drawable/before"
     app:afterImage="@drawable/after"
     app:dividerColor="#FFFFFF"
-    app:dividerWidth="4dp"
+    app:dividerWidth="2dp"
     app:knobColor="#FFFFFF"
-    app:knobRadius="20dp"
+    app:knobRadius="8dp"
     app:initialPosition="0.5" />
 
 <!-- Circular -->
@@ -65,9 +65,9 @@ dependencies {
     app:beforeImage="@drawable/before"
     app:afterImage="@drawable/after"
     app:dividerColor="#FFFFFF"
-    app:dividerWidth="4dp"
+    app:dividerWidth="2dp"
     app:knobColor="#FFFFFF"
-    app:knobRadius="20dp"
+    app:knobRadius="8dp"
     app:initialPosition="0.5" />
 ```
 
