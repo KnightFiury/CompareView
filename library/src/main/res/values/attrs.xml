@@ -1,21 +1,30 @@
 <resources>
+    <!-- Shared attributes -->
+    <attr name="beforeImage" format="reference" />
+    <attr name="afterImage" format="reference" />
+    <attr name="dividerColor" format="color" />
+    <attr name="dividerWidth" format="dimension" />
+    <attr name="knobColor" format="color" />
+    <attr name="knobRadius" format="dimension" />
+    <attr name="initialPosition" format="float" />
+
     <declare-styleable name="BeforeAfterView">
-        <attr name="beforeImage" format="reference" />
-        <attr name="afterImage" format="reference" />
-        <attr name="dividerColor" format="color" />
-        <attr name="dividerWidth" format="dimension" />
-        <attr name="knobColor" format="color" />
-        <attr name="knobRadius" format="dimension" />
-        <attr name="initialPosition" format="float" />
+        <attr name="beforeImage" />
+        <attr name="afterImage" />
+        <attr name="dividerColor" />
+        <attr name="dividerWidth" />
+        <attr name="knobColor" />
+        <attr name="knobRadius" />
+        <attr name="initialPosition" />
     </declare-styleable>
 
     <declare-styleable name="CircularBeforeAfterView">
-        <attr name="beforeImage" format="reference" />
-        <attr name="afterImage" format="reference" />
-        <attr name="dividerColor" format="color" />
-        <attr name="dividerWidth" format="dimension" />
-        <attr name="knobColor" format="color" />
-        <attr name="knobRadius" format="dimension" />
-        <attr name="initialPosition" format="float" />
+        <attr name="beforeImage" />
+        <attr name="afterImage" />
+        <attr name="dividerColor" />
+        <attr name="dividerWidth" />
+        <attr name="knobColor" />
+        <attr name="knobRadius" />
+        <attr name="initialPosition" />
     </declare-styleable>
 </resources>
