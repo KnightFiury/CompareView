@@ -1,8 +1,10 @@
 # CompareView
 
-[![](https://jitpack.io/v/KnightFiury/CompareView.svg)](https://jitpack.io/#KnightFiury/CompareView)
+[![Version](https://jitpack.io/v/KnightFiury/CompareView.svg)](https://jitpack.io/#KnightFiury/CompareView)
 ![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg)
 ![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)
+![GitHub repo size](https://img.shields.io/github/repo-size/KnightFiury/CompareView)
+
 
 A lightweight Android library for beautiful **before/after image comparison** views with a draggable divider. Supports both rectangular and circular variants.
 
